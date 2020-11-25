@@ -1,0 +1,15 @@
+1. Local repository set up:
+git init
+2. README file created and added to the repository:
+touch README.md
+git add README.md 
+git commit -m 'first commit'
+3. A remote called origin linked to your repository:
+git remote add origin https://github.com/username/repo.git
+4. An initial push, which copied your local README to your Github repository:
+git push -u origin master
+If you can view your repository on Github, then it has been successfully created. In this case it looks like you may have edited your README file on Github using the online editing tools, which caused your remote and local branches to diverge.
+
+Before you can push your local changes to Github, you need to fetch or pull your remote changes, merge the changes locally (merging is automatic with pull), and then push to the remote.
+
+See Pro Git: Fetching and Pulling from Your Remotes
