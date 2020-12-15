@@ -1,4 +1,4 @@
-'''for scarping pages on moneycontrol.com stock section'''
+'''for scarping page on moneycontrol.com stock section '''
 import bs4,requests
   
 headlines=[]   
